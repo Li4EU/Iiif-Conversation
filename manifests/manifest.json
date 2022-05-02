@@ -1,0 +1,46 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Li4EU.github.io/Iiif-Conversation/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Painting",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://2b1d8d95-c441-4518-9bcd-0055ecd922e6",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://1d892a69-56ef-4100-9bc4-e4f0e82988fb",
+      "@type" : "sc:Canvas",
+      "label" : "Conversation between Saints",
+      "height" : 1503,
+      "width" : 2000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3c4d9790-b5d7-4e76-bc42-7e0849c47dd1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://li4eu.github.io/Iiif-Conversation/images/Thyssen_Bornemisza_st_sabinus/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://li4eu.github.io/Iiif-Conversation/images/Thyssen_Bornemisza_st_sabinus",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1503,
+          "width" : 2000
+        },
+        "on" : "http://1d892a69-56ef-4100-9bc4-e4f0e82988fb"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
