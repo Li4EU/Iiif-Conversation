@@ -5,11 +5,11 @@
   "label" : "Painting",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "[Click to edit description]",
+    "@value" : "[Saint Sabinus conversing with St. Benedict]",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "attribution" : "[Click to edit attribution]",
+  "attribution" : "[Thyssen Bornemisza]",
   "sequences" : [ {
     "@id" : "http://2b1d8d95-c441-4518-9bcd-0055ecd922e6",
     "@type" : "sc:Sequence",
